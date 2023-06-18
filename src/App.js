@@ -1,11 +1,17 @@
-import React from 'react';
-import HomePage from './Pages/HomePage'
+import { BrowserRouter , Routes , Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
 
 export default function App() {
   return (
-    <div>
-      <HomePage/>
-    </div>
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route exact path = "/" element = { <HomePage/> } />
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
   )
 }
 
