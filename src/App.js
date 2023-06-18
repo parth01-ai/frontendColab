@@ -1,12 +1,11 @@
+import React from 'react';
+import HomePage from './Pages/HomePage'
 
-function App() {
+export default function App() {
   return (
     <div>
-      <h1 class="text-3xl font-bold underline">
-        Sare Bhaiyo Ko Ram Ram
-      </h1>
+      <HomePage/>
     </div>
-  );
+  )
 }
 
-export default App;
