@@ -1,16 +1,16 @@
 import React from 'react'
-import NavBar from '../Components/NavBar'
-import Main from '../Components/Main'
-import Features from '../Components/Features'
-import Footer from '../Components/Footer'
+// import NavBar from '../components/NavBar';
+import Main from '../components/HomePageCompo/Main';
+import Features from '../components/HomePageCompo/Features';
+// import Footer from '../components/Footer';
 
 export default function HomePage() {
   return (
     <div>
-        <NavBar/>
+        {/* <NavBar/> */}
         <Main/>
         <Features/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
