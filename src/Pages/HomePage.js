@@ -1,8 +1,8 @@
 import React from 'react'
-// import NavBar from '../components/NavBar';
-import Main from '../components/HomePageCompo/Main';
-import Features from '../components/HomePageCompo/Features';
-// import Footer from '../components/Footer';
+import NavBar from '../Components/NavBar';
+import Main from '../Components/HomePageCompo/Main';
+import Features from '../Components/HomePageCompo/Features';
+import Footer from '../Components/Footer';
 
 export default function HomePage() {
   return (

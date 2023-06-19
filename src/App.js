@@ -1,7 +1,8 @@
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
+import NavBar from './Components/NavBar';
+import Footer from './Components/Footer';
+import HomePage from './Pages/HomePage';
+import Bus from './Components/Buses/Bus';
 
 export default function App() {
   return (
@@ -9,6 +10,8 @@ export default function App() {
       <NavBar/>
       <Routes>
         <Route exact path = "/" element = { <HomePage/> } />
+        <Route  path = "/busbooking" element = { <Bus/> } />
+
       </Routes>
       <Footer/>
     </BrowserRouter>

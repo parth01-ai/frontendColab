@@ -1,7 +1,7 @@
 import React from 'react';
-// import busLogo from '../../../public/Images/busLogo.jpg';
-// import happyLogo from '../../../public/Images/happyLogo.jpg';
-// import ticketLogo from '../../../public/Images/ticketLogo.png';
+import busLogo from '../../Images/busLogo.jpg';
+import happyLogo from '../../Images/happyLogo.jpg';
+import ticketLogo from '../../Images/ticketLogo.png';
 
 export default function Features() {
     return (
@@ -11,17 +11,17 @@ export default function Features() {
             </div>
             <div className='flex gap-20 justify-center items-stretch'>
                 <div className='flex flex-col shadow-lg p-4 gap-2 items-center w-64'>
-                    <img src='/Images/busLogo' alt='busLogo' className='h-40 w-full object-cover' />
+                    <img src={busLogo} alt='busLogo' className='h-40 w-full object-cover' />
                     <h1 className='text-lg font-semibold'>2000 +</h1>
                     <h2 className='font-medium text-slate-500'>Bus Collections</h2>
                 </div>
                 <div className='flex flex-col shadow-lg p-4 gap-2 items-center w-64'>
-                    <img className='h-40 w-full object-cover' src='/Images/happyLogo.jpg' alt='happyLogo' />
+                    <img className='h-40 w-full object-cover' src={happyLogo} alt='happyLogo' />
                     <h1 className='text-lg font-semibold'>20 Million</h1>
                     <h2 className='font-medium text-slate-500'>happy customers globally</h2>
                 </div>
                 <div className='flex flex-col shadow-lg p-4 gap-2 items-center w-64'>
-                    <img className='h-40 w-full pt-2 px-4 object-center' src='/Images/ticketLogo.png' alt='ticketLogo' />
+                    <img className='h-40 w-full pt-2 px-4 object-center' src={ticketLogo} alt='ticketLogo' />
                     <h1 className='text-lg font-semibold'>5000 +</h1>
                     <h2 className='font-medium text-slate-500'>tickets booked everyday</h2>
                 </div>

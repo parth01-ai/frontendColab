@@ -1,5 +1,5 @@
 import React from 'react';
-import reserveLogo from '../Images/reserve.jpg';
+import reserveLogo from "../Images/reserve.jpg";
 
 export default function Footer() {
   return (
