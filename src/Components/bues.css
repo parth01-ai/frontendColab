@@ -1,0 +1,154 @@
+.buses_div {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  .filter_div {
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Tital_div {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(169, 169, 169);
+    padding: 10px;
+    gap: 20px;
+  }
+  .filter_functions {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid  rgb(169, 169, 169);
+    padding: 10px;
+  }
+  .Departure_Time {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid  rgb(169, 169, 169);
+  }
+  .Arrival_Time {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid  rgb(169, 169, 169);
+  }
+  .bus_operator {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  .Pickup_Point {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid  rgb(169, 169, 169);
+  }
+  .Drop_Point{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid  rgb(169, 169, 169);
+  }
+  .Bus_rating{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid  rgb(169, 169, 169);
+  }
+  .busbooking_div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80vw;
+    /* margin-top: 1rem; */
+  }
+  .DatePicker_container__oXklC{
+  background-color: rgb(222, 222, 222) !important;
+  padding: 10px;
+  border-radius: 20px !important;
+  }
+  .DatePicker_button__ejsjx{
+    background-color: rgb(222, 222, 222)  !important;
+    color: black ;
+    font-size: 30px;
+  }
+
+  
+  .card_div{
+    border: 2px solid  rgb(169, 169, 169);
+    display: flex;
+    border-radius: 10px;
+    height: 11rem;
+    margin-top: 1rem;
+  
+  }
+  .card_section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:950px;
+   /* width: 100%; */
+  
+    padding: 20px;
+  
+    border-right: 2px solid rgb(169, 169, 169);
+    /* gap: 2rem; */
+  }
+  .card_section11{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+  }
+  .card_section11-A{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .card_section11-B{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .card_section11-C{
+    display: flex;
+    gap: 10px;
+  
+  }
+  .card_section12{
+    display: flex;
+    gap: 30px;
+    color: blueviolet;
+  }
+  .card_section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   width: 200px;
+  }
+  .seatBtn{
+    color: white;
+    background-color:#e6883b ;
+   
+    padding: 5px 15px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px
+  }
+  

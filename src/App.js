@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
@@ -15,6 +16,16 @@ export default function App() {
       </Routes>
       <Footer/>
     </BrowserRouter>
+=======
+import React from 'react';
+import HomePage from './Pages/HomePage'
+
+export default function App() {
+  return (
+    <div>
+      <HomePage/>
+    </div>
+>>>>>>> 526fbf5197d4d6585834d78f064769dab9509eef
   )
 }
 
